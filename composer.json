@@ -1,0 +1,25 @@
+{
+  "name": "yourmomma/tstr",
+  "description": "Test PHP Library",
+  "keywords": [
+    "test",
+    "api"
+  ],
+  "homepage": "https://test.com/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Your Mom",
+      "homepage": "https://github.com/yourmomma/tstr"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tractorscope\\": "lib/"
+    }
+  }
+}
